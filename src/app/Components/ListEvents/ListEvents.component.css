@@ -1,0 +1,23 @@
+.gaEvntCart{
+    width: 1000px;
+}
+.evntCart{
+    margin-top: 30px;
+    width: 300px;
+    height: 260px;
+    margin-left: 25px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px  #333;
+    float: left;
+}
+.imgEvent{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20px;
+}
+
+.p-centr{
+    text-align: center;
+    margin-top: 15px;
+}

@@ -1,0 +1,16 @@
+<div class="card" style="width: 18rem;">
+    <img class="card-img-top" [src]="myEvent.image" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">{{myEvent.title}}</h5>
+      <i (click)="changePriority()" *ngIf="isPriority === false" class="far fa-check-square fa-2x icon"></i>
+
+      <i (click)="changePriority()"  *ngIf="isPriority === true" class="fas fa-check-square fa-2x icon gren-icon"></i>
+
+
+      <i (click)="changePriorityEye()" *ngIf="isPriorityEye === false" class="far fa-eye fa-2x eye-green"></i>
+      <i (click)="changePriorityEye()" *ngIf="isPriorityEye === true" class="far fa-eye-slash fa-2x eye-red"></i>
+
+
+      <p class="card-text">{{myEvent.date}}</p>
+    </div>
+</div>
